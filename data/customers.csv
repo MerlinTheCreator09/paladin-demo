@@ -1,0 +1,13 @@
+id,name,email,city,signup_date
+C0001,Test Customer 001,customer001@example.com,Manipal,2024-02-11
+C0002,Test Customer 002,customer002@example.com,Udupi,2024-03-12
+C0003,Test Customer 003,customer003@example.com,Mangaluru,2024-04-13
+C0004,Test Customer 004,customer004@example.com,Bengaluru,2024-05-14
+C0005,Test Customer 005,customer005@example.com,Manipal,2024-06-15
+C0006,Test Customer 006,customer006@example.com,Udupi,2024-07-16
+C0007,Test Customer 007,customer007@example.com,Mangaluru,2024-08-17
+C0008,Test Customer 008,customer008@example.com,Bengaluru,2024-09-18
+C0009,Test Customer 009,customer009@example.com,Manipal,2024-01-19
+C0010,Test Customer 010,customer010@example.com,Udupi,2024-02-10
+C0011,Test Customer 011,customer011@example.com,Mangaluru,2024-03-11
+C0012,Test Customer 012,customer012@example.com,Bengaluru,2024-04-12

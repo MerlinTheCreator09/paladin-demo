@@ -1,0 +1,4 @@
+May 14 13:01:02 WEB-BO-01 sshd[901]: Failed password for invalid user admin from 203.0.113.45 port 50122 ssh2
+May 14 13:01:05 WEB-BO-01 sshd[902]: Failed password for invalid user admin from 203.0.113.45 port 50124 ssh2
+May 14 13:05:11 WEB-BO-01 sshd[912]: Accepted password for www-data from 198.51.100.42 port 51544 ssh2
+May 14 13:07:40 WEB-BO-01 sudo: www-data : TTY=pts/0 ; PWD=/var/www ; USER=root ; COMMAND=/bin/bash
