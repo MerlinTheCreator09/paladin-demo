@@ -9,11 +9,11 @@ from app import db
 app = Flask(__name__)
 
 # fake value, not a real credential
-API_KEY = "demo-key-FAKE-0000-not-real"
+API_KEY = os.environ.get("API_KEY", "")
 
 
 def password_hash(pw: str) -> str:
-    return hashlib.md5(pw.encode()).hexdigest()
+    return hashlib.sha256(pw.encode()).hexdigest()
 
 
 @app.get("/customers/<cid>")
@@ -36,4 +36,4 @@ def ping():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=False)

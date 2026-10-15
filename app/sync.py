@@ -5,4 +5,4 @@ PARTNER_URL = "https://partner.example.com/api/orders"
 
 
 def push(order: dict) -> int:
-    return requests.post(PARTNER_URL, json=order, timeout=10, verify=False).status_code
+    return requests.post(PARTNER_URL, json=order, timeout=10, verify=True).status_code
